@@ -1,6 +1,6 @@
 {% set name = "fbdfile" %}
-{% set version = "2025.11.8" %}
-{% set sha256 = "732510e0d3ab453b4b9f8c37bf7e6cf24677a0a68beeffe91761d3c502684f35" %}
+{% set version = "2025.12.12" %}
+{% set sha256 = "78bf0b0ecb752813b641555ad394fe7107f5e49dce982aaa704a7395e60d923b" %}
 
 package:
   name: {{ name|lower }}
