@@ -39,6 +39,7 @@ requirements:
     - click
     - matplotlib-base
     - tifffile >=2024.8.30
+    - vcomp14  # [win]
 
 test:
   imports:
