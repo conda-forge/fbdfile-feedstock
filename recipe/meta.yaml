@@ -1,6 +1,6 @@
 {% set name = "fbdfile" %}
-{% set version = "2026.1.14" %}
-{% set sha256 = "484332b904b9e8361201a3afd0ce1f57209ad4d87964a6a5248ef9c60d9d755d" %}
+{% set version = "2026.2.6" %}
+{% set sha256 = "a5aff2619477b1d32a0d98cdadd20cc56da01c2cd793c0cf6965d0eeccd605e8" %}
 
 package:
   name: {{ name|lower }}
@@ -39,6 +39,7 @@ requirements:
     - click
     - matplotlib-base
     - tifffile >=2024.8.30
+    - vcomp14  # [win]
 
 test:
   imports:
