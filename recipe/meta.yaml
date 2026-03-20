@@ -1,6 +1,6 @@
 {% set name = "fbdfile" %}
-{% set version = "2026.2.6" %}
-{% set sha256 = "a5aff2619477b1d32a0d98cdadd20cc56da01c2cd793c0cf6965d0eeccd605e8" %}
+{% set version = "2026.3.20" %}
+{% set sha256 = "a9780666f44046f52a309c876e52b7a990c6587b6783928ac0fc73ba912b4491" %}
 
 package:
   name: {{ name|lower }}
@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  skip: true  # [py<311]
+  skip: true  # [py<312]
   entry_points:
     - fbdfile = fbdfile.fbdfile:main
     - fbd2b64 = fbdfile.fbd2b64:main
