@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  skip: true  # [py<311]
+  skip: true  # [py<312]
   entry_points:
     - fbdfile = fbdfile.fbdfile:main
     - fbd2b64 = fbdfile.fbd2b64:main
