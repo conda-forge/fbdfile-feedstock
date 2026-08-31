@@ -28,6 +28,7 @@ requirements:
     - {{ stdlib('c') }}
     - libgomp      # [linux]
     - llvm-openmp  # [osx]
+    - vcomp14  # [win]
   host:
     - python
     - setuptools >=68
