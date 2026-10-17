@@ -1,6 +1,6 @@
 {% set name = "fbdfile" %}
-{% set version = "2026.8.30" %}
-{% set sha256 = "bdb611bdcc3651945ba40861405d472b4f6a9c5cd10b4aaf08fa70842ef0d1ab" %}
+{% set version = "2026.10.16" %}
+{% set sha256 = "43609fa9adfbb58e5f83d92a333847177c39a8445e843f8ba9dfeb847600bb7b" %}
 
 package:
   name: {{ name|lower }}
@@ -16,7 +16,7 @@ build:
     - fbdfile = fbdfile.fbdfile:main
     - fbd2b64 = fbdfile.fbd2b64:main
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 1
+  number: 0
   script_env:
     - CG_LIMITED_API=0
 
